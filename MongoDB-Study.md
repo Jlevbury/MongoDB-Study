@@ -325,7 +325,7 @@ Remember, with Mongoose, all these commands are methods called on your models (l
 ## Update Operators
 
 
- **Fields**
+ ### Fields
 
 | Name | Description |
 | --- | --- |
@@ -339,7 +339,7 @@ Remember, with Mongoose, all these commands are methods called on your models (l
 | `$setOnInsert` | Sets the value of a field if an update results in an insert of a document. Has no effect on update operations that modify existing documents. |
 | `$unset` | Removes the specified field from a document. |
 
-**Array Operators**
+### Array Operators
 
 | Name | Description |
 | --- | --- |
@@ -352,7 +352,7 @@ Remember, with Mongoose, all these commands are methods called on your models (l
 | `$push` | Adds an item to an array. |
 | `$pullAll` | Removes all matching values from an array. |
 
-**Modifiers**
+### Modifiers
 
 | Name | Description |
 | --- | --- |
@@ -361,7 +361,7 @@ Remember, with Mongoose, all these commands are methods called on your models (l
 | `$slice` | Modifies the `$push` operator to limit the size of updated arrays. |
 | `$sort` | Modifies the `$push` operator to reorder documents stored in an array. |
 
-**Bitwise**
+### Bitwise
 
 | Name | Description |
 | --- | --- |
